@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col header d-flex justify-content-around">
+                <div>
+                    <p class="yo_compu">yo</p>
+                    <div >
+                        <img id="yo" src="./imagenes/papel.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <p class="yo_compu">compu</p>
+                    <div >
+                        <img id="compu" src="./imagenes/papel.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <div>
+                    <p class="escoge mb-1 mt-3">Escoge una opcion:</p>
+                    <div>
+                        <button data-valor="piedra">
+                            <img src="./imagenes/piedra.png" alt="">
+                        </button>
+                        <button data-valor="papel">
+                            <img src="./imagenes/papel.png" alt="">
+
+                        </button>
+                        <button data-valor="tijera">
+                            <img src="./imagenes/tijera.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col footer mt-5">
+                <div>
+                    <p class="yo_compu mt-2" id="res">Tu <span>Ganas </span>escogiendo <span>Papel</span> en contra de <span>Piedra</span>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="jquery.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+
+</html>
